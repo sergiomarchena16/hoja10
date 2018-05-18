@@ -5,7 +5,7 @@ from funciones import *
 
 print ("Bienvenido")
 
-
+#ciclo de ejecucion de programa
 fin = False
 while (fin == False):
     print("")
@@ -17,7 +17,7 @@ while (fin == False):
     print ("6. salir")
     opcion = (input("elija su opcion: "))
 
-
+#posibles situaciones a ejecutar
     if opcion == "1":
         nombre = input("nombre del doctor: ")
         especializacion = input("especializacion del doctor: ")
@@ -51,7 +51,7 @@ while (fin == False):
 
 
 
-
+#pregunta parafinalizar programa
     respuesta = input("Desea seguir? S/N ")
     while (respuesta != "S" and respuesta != "N"):
         print ("Por favor ingrese uno de los caracteres validos (S o N)")
